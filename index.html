@@ -1,84 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <title>My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Portfolio</title>
   </head>
-
   <body>
     <div class="main-container">
-      <nav>
-        <div class="text-align">
-          <h1 class="title">Amador J Rodriguez</h1>
+      <nav class="navbar flex">
+        <div class="title">
+          <h1>Amador J Rodriguez</h1>
           <h2>Software Developer</h2>
         </div>
         <ul class="menu">
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a class="link" href="#">About Me</a></li>
+          <li><a class="link" href="#">Portolio</a></li>
+          <li><a class="link" href="#">Contact</a></li>
         </ul>
-        <!-- <p>
-          My <em>favorite</em> thing about programming is integrating it in a
-          benevolent way to the world!
-        </p> -->
       </nav>
-      <div class="about-me">
-        <h3 class="large-font">About Me</h3>
-        <img
-          class="monkey-img"
-          src="/images/ape.jpg"
-          alt="Just a monkey"
-          height="300px"
-          width="300px"
-        />
+      <header class="flex">
+        <div class="profile-img"></div>
+        <div class="header-text">
+          <p>
+            Digital technology has placed itself at the forefront of societal
+            innovation. Its reach is global and potential is seemingly
+            unlimited. With benevolence at the heart of our efforts, we can do
+            incredible and benevolent things in this world. I intend to do just
+            that. If using tech to make the world a little brighter is your jam,
+            contact me. Let's do some great work!
+          </p>
+        </div>
+        <div class="down-btn">
+          <a href="#">&#8595; &#8595; &#8595;</a>
+        </div>
+      </header>
+    </div>
+    <section class="about-me flex">
+      <h1>A Little About Me</h1>
+      <div class="about-paragraph">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas odio rem
-          eum iste nesciunt autem, debitis veritatis repellendus corrupti dolore
-          unde hic dolorem eos ullam sapiente molestias tempora qui praesentium
-          deserunt omnis asperiores! Reiciendis, provident iure atque minima
-          veritatis vero, quibusdam illo rem nulla corporis natus, saepe aut ex
-          at.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quaerat
+          soluta eius exercitationem est veritatis reiciendis voluptates. Velit
+          tenetur illo reiciendis, qui quis enim eum est consequatur maxime sit
+          dicta?
         </p>
       </div>
-      <div class="projects">
-        <h3 class="large-font">My Projects</h3>
-        <ul class="menu">
-          <li class="card">Project 1</li>
-          <li class="card">Project 2</li>
-          <li class="card">Project 3</li>
-        </ul>
+    </section>
+    <section class="portfolio flex">
+      <h1>Portfolio</h1>
+      <div class="flex project-container">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
-      <div class="contact">
-        <h3 class="large-font">Contact</h3>
-        <ul>
-          <li>Email:</li>
-          <li>Phone:</li>
-        </ul>
+      <div class="flex project-container">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
       </div>
-    </div>
-
-    <!-- 
-      Directions:
-        1. Create a DIV element to contain the page content
-        2. Inside your DIV, create an H1 tag that contains your name as the text
-        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
-        4. Below your H2 tag, create an HR tag which will make a horizontal line
-        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
-        6. Make the word "favorite" italicized
-        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
-        8. Create an H3 tag that says "About Me"
-        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
-        10. Create an H3 tag that says "My Projects"
-        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
-        12. Add another H3 that contains "Contact Me" as text
-        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
-        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
-
-        BONUS: Try one of the following ideas if you finish early
-          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
-          - In your contact me section, make the text "Phone:" and "Email:" bolded
-     -->
+    </section>
+    <section class="contact">
+      <h1>Contact</h1>
+    </section>
   </body>
 </html>

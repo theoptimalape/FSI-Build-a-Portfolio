@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Sedgwick+Ave&display=swap");
+
+/* Main Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Mulish, sans serif;
+  font-size: 1.4rem;
+}
+.main-container {
+  width: 100vw;
+  position: relative;
+}
+.flex {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: rgb(208, 215, 221);
+}
+.link:hover {
+  color: rgb(212, 168, 86);
+}
+
+/* Navbar and Landing Page */
+.navbar {
+  height: 10vh;
+  width: 100%;
+  background: rgba(68, 68, 68, 0.4);
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 1;
+}
+.title {
+  text-align: center;
+  color: rgb(208, 215, 221);
+}
+.menu {
+  list-style: none;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background: url(/images/gradient.jpg) no-repeat center center/cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  z-index: 0;
+  overflow-x: hidden;
+}
+.profile-img {
+  height: 18rem;
+  width: 18rem;
+  background: rgb(208, 215, 221);
+  border-radius: 50%;
+}
+.header-text {
+  background: rgba(68, 68, 68, 0.4);
+  padding: 1rem;
+  color: rgb(208, 215, 221);
+  text-align: center;
+  width: 75vw;
+  border-radius: 10px;
+}
+.down-btn {
+  height: 30px;
+  width: 60px;
+  background: rgba(68, 68, 68, 0.4);
+  border-radius: 5px;
+  text-align: center;
+}
+.down-btn a {
+  color: rgb(208, 215, 221);
+  text-decoration: none;
+}
+.down-btn a:hover {
+  color: rgb(212, 168, 86);
+}
+
+/* About Me Styling */
+.about-me {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 0;
+  top: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Portfolio */
+.portfolio {
+  height: 100vh;
+  width: 100vw;
+  background: url(/images/gradient.jpg) no-repeat center center/cover;
+  color: rgb(208, 215, 221);
+  position: absolute;
+  top: 200vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card {
+  height: 25vh;
+  width: 20vw;
+  background: rgba(68, 68, 68, 0.4);
+  margin: 1rem;
+}
+
+/* Contact */
+.contact {
+  height: 25vh;
+  width: 100vw;
+  position: absolute;
+  top: 300vh;
+}
